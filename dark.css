@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+}
+.font1{
+    color: rgba(255, 255, 255, 0.938);
+}
+.blog{
+    color: rgba(255, 255, 255, 0.938);
+}
+#text1{
+    color: rgba(255, 255, 255, 0.938);
+}
+#text2{
+    color: rgba(255, 255, 255, 0.938);
+}
+#home{
+    color: rgba(255, 255, 255, 0.938);
+}
+#contact{
+    color: rgba(255, 255, 255, 0.938);
+}
+.text-only-mode * {
+    color: #000 !important;
+    background-color: transparent !important;
+    text-decoration: underline !important;
+  }
+  
+  .text-only-mode img,
+  .text-only-mode svg {
+    display: none !important;
+  }
+  .text-only-mode .image {
+    display: none !important;
+  }
+  
+  .text-only-mode #heading,
+  .text-only-mode #text {
+    visibility: hidden !important;
+  }
+  
